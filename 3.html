@@ -1,0 +1,65 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Feedback form</title>
+</head>
+<body>
+    <header>
+        <h1>Feedback Form</h1>
+    </header>
+    <main>
+        <form >
+            <table>
+                <tr>
+                    <label for="name" >Name</label> <br>
+                    <input type="text" placeholder="Enter your name" required><br><br>
+                </tr>
+                <tr>
+                    <label for="email" >Email</label> <br> 
+                    <input type="email" placeholder="Enter your email" required><br><br>
+                </tr>
+                <tr>
+                    <label for="age" >Age</label> <br> 
+                    <input type="number" placeholder="Enter your age" required><br><br>
+                </tr>
+                <tr>
+                    <label for="que">Which option best describes you?</label>
+                    <br><select  id="q">
+                        <option value="student">student</option>
+                        <option value="teacher">teacher</option>
+                        <option value="nonteaching">nonteaching</option>
+                    </select>
+                </tr>
+                <tr><br><br>
+<label>Would you recommend GeekforGeeks to a friend?</label> <br> 
+<input type="radio" name="course">Yes <br>
+<input type="radio"name="course">No <br>
+<input type="radio" name="course">Maybe <br>
+</tr> <br>
+<tr>
+    <label>Languages and Frameworks known(check all that apply)</label> <br>
+    <input type="checkbox">C <br>
+    <input type="checkbox">C++ <br>
+     <input type="checkbox">C# <br>
+    <input type="checkbox">Java <br>
+     <input type="checkbox">Python <br>
+    <input type="checkbox">JavaScript <br>
+     <input type="checkbox">React <br>
+    <input type="checkbox">Angular <br>
+     <input type="checkbox">Django <br>
+    <input type="checkbox">Spring <br>
+</tr>
+<tr>
+    <label  >Any comments or suggestions</label>
+    <textarea cols="100" rows="5" placeholder="Enter your comment here"></textarea>
+</tr> <br> <br>
+<tr>
+    <input type="Submit">
+</tr>
+            </table>
+        </form>
+    </main>
+</body>
+</html>
